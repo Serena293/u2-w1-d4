@@ -83,7 +83,11 @@ flex-direction: column;
 justify-content: space-evenly */
   padding: 2em 1em;
 }
-
+.first-section{display: flex;
+flex-direction: column;
+gap: 2em;
+border-bottom: 1px solid gray;
+padding-bottom: 2em;}
 h2 {
   font-size: 18px;
   font-weight: bold;
