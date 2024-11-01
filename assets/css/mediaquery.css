@@ -1,19 +1,39 @@
 @media screen and (min-width:1200px) {
-    svg {
-        display: inline;
-        width: 200%;
-        height: 100%;
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
+.first-section{
+    display: flex;
+
+}
+.trending{margin-left: 4em;}
+
+.article-first-section {
+    max-width: 400px;
+  } /*rivedi*/
+
+
+  .second-third-section{display: flex;
+flex-direction: row-reverse;
+margin-top: 3em;
+margin-left:5em;
+margin-right: 5em;
+gap: 4em
+}
+
+.third-section{display: flex;
+
+
+}
+.article-third-section{
+    display: flex;
+    gap:1.5em
+}
+
+.text{
+    min-width: 400px;
     
-      .header-bottom {
-      
-        position: relative;
-      }
-
-
+}
+.third-article-img{
+    min-width: 300px;
+}
 }
 
 
@@ -47,6 +67,7 @@
   .first-section {
     display: flex;
     padding-bottom: 2em;
+   
   }
 
   .articles-in-first-section {
