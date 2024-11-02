@@ -1,4 +1,17 @@
 @media screen and (min-width: 1200px) {
+
+@keyframes fade {
+  0% { opacity: 0; }
+      50% { opacity: 1; }
+      100% { opacity: 0; }
+}
+
+
+.fade {
+  animation: fade 3s infinite;
+}
+
+
   .first-section {
     display: flex;
   }
@@ -56,8 +69,10 @@
     animation-range: entry 0;
 } */
   
-}
-@media screen and (min-width: 577px) {
+
+
+
+
   .hide {
     display: flex;
   }
